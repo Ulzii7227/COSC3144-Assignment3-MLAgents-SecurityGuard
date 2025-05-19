@@ -37,7 +37,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.ml-agents": {
-      "version": "https://github.com/Unity-Technologies/ml-agents.git?path=com.unity.ml-agents",
+      "version": "https://github.com/Unity-Technologies/ml-agents.git?path=com.unity.ml-agents&hash=7346bc464dfb4f5dd95f9c3432eb5638ef4eb6fd",
       "depth": 0,
       "source": "git",
       "dependencies": {
