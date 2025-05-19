@@ -44,7 +44,7 @@ behaviors:
     self_play: null
     behavioral_cloning: null
 env_settings:
-  env_path: none
+  env_path: null
   env_args: null
   base_port: 5005
   num_envs: 1
@@ -63,7 +63,7 @@ engine_settings:
   no_graphics: false
 environment_parameters: null
 checkpoint_settings:
-  run_id: guard_v1
+  run_id: guard_v14
   initialize_from: null
   load_model: false
   resume: false

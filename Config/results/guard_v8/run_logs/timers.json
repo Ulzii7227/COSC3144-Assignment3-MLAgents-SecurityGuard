@@ -1,0 +1,47 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1747659762",
+        "python_version": "3.10.12 | packaged by Anaconda, Inc. | (main, Jul  5 2023, 19:01:18) [MSC v.1916 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\Ulzii\\anaconda3\\envs\\mlagents\\Scripts\\mlagents-learn config.yaml --run-id=guard_v8 --env=C:/Users/Ulzii/Desktop/SecurityGuardEnv/SecurityGuard.exe",
+        "mlagents_version": "1.1.0",
+        "mlagents_envs_version": "1.1.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "2.2.2+cu121",
+        "numpy_version": "1.23.5",
+        "end_time_seconds": "1747659764"
+    },
+    "total": 2.6104229999982635,
+    "count": 1,
+    "self": 0.006111099999543512,
+    "children": {
+        "run_training.setup": {
+            "total": 0.1120020000016666,
+            "count": 1,
+            "self": 0.1120020000016666
+        },
+        "TrainerController.start_learning": {
+            "total": 2.4923098999970534,
+            "count": 1,
+            "self": 0.00037090000114403665,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 2.4919262999974308,
+                    "count": 1,
+                    "self": 2.4919262999974308
+                },
+                "trainer_threads": {
+                    "total": 1.1999982234556228e-06,
+                    "count": 1,
+                    "self": 1.1999982234556228e-06
+                },
+                "TrainerController._save_models": {
+                    "total": 1.1500000255182385e-05,
+                    "count": 1,
+                    "self": 1.1500000255182385e-05
+                }
+            }
+        }
+    }
+}

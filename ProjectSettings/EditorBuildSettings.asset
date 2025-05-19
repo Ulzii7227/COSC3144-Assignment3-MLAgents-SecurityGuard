@@ -4,6 +4,9 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/SecurityGuardScene.unity
+    guid: 97021a9cba6add544aa13c70e6862609
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

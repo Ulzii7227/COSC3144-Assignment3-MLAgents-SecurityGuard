@@ -1,6 +1,7 @@
 {
   "dependencies": {
-    "com.unity.ml-agents": "https://github.com/Unity-Technologies/ml-agents.git?path=com.unity.ml-agents&hash=7346bc464dfb4f5dd95f9c3432eb5638ef4eb6fd",
+    "com.unity.collections": "1.3.1",
+    "com.unity.ml-agents": "3.0.0",
     "com.unity.multiplayer.center": "1.0.0",
     "com.unity.modules.accessibility": "1.0.0",
     "com.unity.modules.ai": "1.0.0",
