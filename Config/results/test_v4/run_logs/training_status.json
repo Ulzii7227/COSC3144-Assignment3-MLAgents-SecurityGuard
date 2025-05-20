@@ -1,0 +1,29 @@
+{
+    "SecurityGuard": {
+        "checkpoints": [
+            {
+                "steps": 41319,
+                "file_path": "results\\test_v4\\SecurityGuard\\SecurityGuard-41319.onnx",
+                "reward": 1.1011999607086183,
+                "creation_time": 1747704248.2796068,
+                "auxillary_file_paths": [
+                    "results\\test_v4\\SecurityGuard\\SecurityGuard-41319.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 41319,
+            "file_path": "results\\test_v4\\SecurityGuard.onnx",
+            "reward": 1.1011999607086183,
+            "creation_time": 1747704248.2796068,
+            "auxillary_file_paths": [
+                "results\\test_v4\\SecurityGuard\\SecurityGuard-41319.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "1.13.1+cpu"
+    }
+}
