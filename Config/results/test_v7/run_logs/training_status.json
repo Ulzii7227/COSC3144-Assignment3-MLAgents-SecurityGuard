@@ -1,0 +1,38 @@
+{
+    "SecurityGuard": {
+        "checkpoints": [
+            {
+                "steps": 49993,
+                "file_path": "results\\test_v7\\SecurityGuard\\SecurityGuard-49993.onnx",
+                "reward": 1.1282222237851884,
+                "creation_time": 1747706663.3261988,
+                "auxillary_file_paths": [
+                    "results\\test_v7\\SecurityGuard\\SecurityGuard-49993.pt"
+                ]
+            },
+            {
+                "steps": 55647,
+                "file_path": "results\\test_v7\\SecurityGuard\\SecurityGuard-55647.onnx",
+                "reward": null,
+                "creation_time": 1747706832.6652608,
+                "auxillary_file_paths": [
+                    "results\\test_v7\\SecurityGuard\\SecurityGuard-55647.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 55647,
+            "file_path": "results\\test_v7\\SecurityGuard.onnx",
+            "reward": null,
+            "creation_time": 1747706832.6652608,
+            "auxillary_file_paths": [
+                "results\\test_v7\\SecurityGuard\\SecurityGuard-55647.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "1.13.1+cpu"
+    }
+}
